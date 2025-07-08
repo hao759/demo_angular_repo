@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/demo_angular_repo/",
             "outputPath": "dist/demo_angular_local",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -92,5 +93,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
